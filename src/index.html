@@ -14,7 +14,7 @@
         <div class="header__row">
 
             <div class="notifications">
-                <a class="notifications__button js-notifications__toggle" href="#"></a>
+                <a class="notifications__button js-notifications__button" href="#"></a>
                 <ul class="notifications__dropdown">
                     <li class="notifications__dropdown-list-item">
                         <a class="notifications__dropdown-link" href="">
@@ -68,6 +68,15 @@
             </div>
         </div>
     </header>
+
+    <script type="text/javascript">
+        const notificationsButton = document.querySelector('.js-notifications__button');
+        const notificationsDropdown = document.querySelector('.notifications__dropdown');
+
+        notificationsButton.addEventListener('click', () => {
+            notificationsDropdown.classList.toggle('js-show');
+        });
+    </script>
 </body>
 
 </html>

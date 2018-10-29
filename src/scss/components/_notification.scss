@@ -47,5 +47,10 @@
       margin-right: $uniformed-margin;
       border-radius: $border-radius;
     }
+
+    // Javascript Hook
+    &.js-show {
+      display: block;
+    }
   }
 }
