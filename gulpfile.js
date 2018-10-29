@@ -36,4 +36,4 @@ gulp.task('watch', function () {
   gulp.watch('./src/**.html', ['copy']);
 });
 
-gulp.task('default', ['sass', 'scripts', 'copy']);
+gulp.task('default', ['sass', 'copy']);
