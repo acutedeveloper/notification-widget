@@ -8,7 +8,6 @@ This is a simple exercise to demonstrate my technical skillset.
   - browserSync
   - sass
   - autoprefixer
-- -
 
 ## Requirements
 
@@ -18,8 +17,8 @@ This is a simple exercise to demonstrate my technical skillset.
 
 First things to establish from the design are any required assets.
 
-User Avatar Images 50 x 50px
-Font Avenir
+- User Avatar Images 50 x 50px
+- Font Avenir
 
 Assuming this component is to be used on mobile devices, the design provided needs
 to be reviewed for how the component would behave on a mobile device.
@@ -36,7 +35,7 @@ Thinking notifications: ala Facebook and Instagram.
 
 **Next Steps**
 
-[ ] Add Avenir Typeface
-[ ] Create Type component styles
-[ ] Address mixin issue
-[ ] Source some inspirational transition ideas for revealing the widget 
+- [ ] Add Avenir Typeface
+- [ ] Create Type component styles
+- [ ] Address mixin issue
+- [ ] Source some inspirational transition ideas for revealing the widget
