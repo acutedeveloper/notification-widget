@@ -4,6 +4,12 @@ This is a simple exercise to demonstrate my technical skillset.
 
 ## Tech Used
 
+- gulp
+  - browserSync
+  - sass
+  - autoprefixer
+- -
+
 ## Requirements
 
 ## Log 29/10/18

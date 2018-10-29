@@ -1,0 +1,60 @@
+/*------------------------------------*\
+  COLORS
+\*------------------------------------*/
+
+/* GENERIC COLORS */
+
+$black: #000;
+$white: #FFF;
+
+/* BRAND COLORS */
+$brand--red: #FF0000;
+$brand--blue: #095482;
+$brand--sky-blue: #F3FAFD;
+
+$brand--dk-grey: #414D54;
+$brand--grey: #9B9B9B;
+$brand--lt-grey: #D8D8D8;
+$brand--silver: #EFEFEF;
+
+/* UI COLORS */
+$shell--body-bg: #EFEFEF;
+$shell--header-bg: $brand--blue;
+
+$text-color: $brand--dk-grey;
+
+$font-primary: 'helvetica';
+$font-base-size: 16;
+
+$font-size-h1: px-to-rem(30, $font-base-size);
+$line-height-h1: 1.2;
+
+$font-size-h2: px-to-rem(24, $font-base-size);
+$line-height-h2: 1.2;
+
+$font-size-h3: px-to-rem(18, $font-base-size);
+$line-height-h3: 1.2;
+
+$font-size-h4: px-to-rem(14, $font-base-size);
+$line-height-h4: 1.2;
+
+$font-size-h5: px-to-rem(12, $font-base-size);
+$line-height-h5: 1.2;
+
+$font-size-h6: px-to-rem(12, $font-base-size);
+$line-height-h6: 1.2;
+
+$font-size-body: $font-size-h3;
+$line-height-body: 1.2;
+
+/*------------------------------------*\
+  Layout Padding
+\*------------------------------------*/
+
+$uniformed-margin: 10px;
+
+/*------------------------------------*\
+  Border Radius
+\*------------------------------------*/
+
+$border-radius: 2px;
