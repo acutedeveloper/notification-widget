@@ -5,4 +5,10 @@
 .header{
   background-color: $shell--header-bg;
   color: $white;
+  height: 44px;
+
+  &__row{
+    margin: 0 auto;
+    max-width: 500px;
+  }
 }
