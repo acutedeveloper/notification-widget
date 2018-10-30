@@ -5,7 +5,6 @@ const sass = require('gulp-sass');
 const browserSync = require('browser-sync').create();
 const autoprefixer = require('gulp-autoprefixer');
 
-
 gulp.task('sass', function () {
   return gulp.src('./src/scss/**/*.scss')
     .pipe(sass().on('error', sass.logError))
@@ -22,7 +21,12 @@ gulp.task('html', function () {
   .pipe(gulp.dest('./build/'));
 });
 
-gulp.task('copy', ['html']);
+gulp.task('fonts', function () {
+  return gulp.src('./src/fonts/**/*')
+  .pipe(gulp.dest('./build/fonts/'));
+});
+
+gulp.task('copy', ['html', 'fonts']);
 
 // Watch Tasks
 
