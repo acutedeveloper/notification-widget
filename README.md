@@ -10,6 +10,14 @@ This is a simple exercise to demonstrate my technical skillset.
   - autoprefixer
 
 ## Requirements
+To build a replicate of the supplied design built as a React Application.
+
+**Question?**
+What is this application all about?
+If time allows, support this with a CRUD?
+
+## Log 30/10/18
+Built out the full html structure. Created SASS styles. Added in some dummy JS functions.
 
 ## Log 29/10/18
 
@@ -35,7 +43,9 @@ Thinking notifications: ala Facebook and Instagram.
 
 **Next Steps**
 
-- [ ] Add Avenir Typeface
-- [ ] Create Type component styles
-- [ ] Address mixin issue
-- [ ] Source some inspirational transition ideas for revealing the widget
+- [x] Add Avenir Typeface
+- [x] Create Type component styles
+- [x] Address mixin issue
+- [x] Source some inspirational transition ideas for revealing the widget
+- [x] CSS transitions for hover effects
+- [ ] Build out some backend API
