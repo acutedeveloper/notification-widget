@@ -1,9 +1,14 @@
-@import 'config/variables';
 @import 'mixins/mixins';
+@import 'config/variables';
+
+/* BASE STYLES */
+@import 'base/typography/fonts';
+@import 'base/typography/fontello';
 @import 'base/reset';
 
 /* LAYOUT */
 @import 'layout/app-shell';
 
 /* COMPONENTS */
+@import 'components/text';
 @import 'components/notification';
