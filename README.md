@@ -2,6 +2,13 @@
 
 This is a simple exercise to demonstrate my technical skillset.
 
+## To run
+
+```
+npm install
+gulp watch
+```
+
 ## Tech Used
 
 - gulp
@@ -14,10 +21,6 @@ This is a simple exercise to demonstrate my technical skillset.
 
 ## Requirements
 To build a replicate of the supplied design built as a React Application.
-
-**Question?**
-What is this application all about?
-If time allows, support this with a CRUD?
 
 ## Log 31/10/18
 
