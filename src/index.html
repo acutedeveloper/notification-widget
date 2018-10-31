@@ -11,76 +11,11 @@
 
 <body class="app-shell">
     <header class="header">
-        <div class="header__row">
-
-            <div class="notifications">
-                <a class="notifications__button js-notifications__button" href="#">
-                  <span class="notifications__button-badge">88</span>
-                  <i class="icon-world-globe"></i>
-                </a>
-                <ul class="notifications__dropdown">
-                    <li class="notifications__dropdown-list-item">
-                        <a class="notifications__dropdown-link" href="">
-                            <img class="notifications__dropdown-avatar" src="https://via.placeholder.com/50" alt="#">
-                            <div class="notifications__dropdown-link-content">
-                              <span class="text--strong text--blue">Mary Price, Suoma Narjus and 3 others</span> liked your <span class="text--strong">post</span>: "Acme Inc dynamically scales ni…"
-                            </div>
-                    </a>
-                    </li>
-                    <li class="notifications__dropdown-list-item">
-                        <a class="notifications__dropdown-link" href="">
-                            <img class="notifications__dropdown-avatar" src="https://via.placeholder.com/50" alt="#">
-                            <div class="notifications__dropdown-link-content">
-                              <span>Mary Price, Suoma Narjus and 3 others</span> liked your <span>post</span>: "Acme Inc dynamically scales ni…"
-                            </div>
-                    </a>
-
-                    </li>
-                    <li class="notifications__dropdown-list-item">
-                        <a class="notifications__dropdown-link" href="">
-                            <img class="notifications__dropdown-avatar" src="https://via.placeholder.com/50" alt="#">
-                            <div class="notifications__dropdown-link-content">
-                              <span>Mary Price, Suoma Narjus and 3 others</span> liked your <span>post</span>: "Acme Inc dynamically scales ni…"
-                            </div>
-                    </a>
-                    </li>
-                    <li class="notifications__dropdown-list-item">
-                        <a class="notifications__dropdown-link" href="">
-                            <img class="notifications__dropdown-avatar" src="https://via.placeholder.com/50" alt="#">
-                            <div class="notifications__dropdown-link-content">
-                              <span>Mary Price, Suoma Narjus and 3 others</span> liked your <span>post</span>: "Acme Inc dynamically scales ni…"
-                            </div>
-                    </a>
-                    </li>
-                    <li class="notifications__dropdown-list-item">
-                        <a class="notifications__dropdown-link" href="">
-                            <img class="notifications__dropdown-avatar" src="https://via.placeholder.com/50" alt="#">
-                            <div class="notifications__dropdown-link-content">
-                              <span>Mary Price, Suoma Narjus and 3 others</span> liked your <span>post</span>: "Acme Inc dynamically scales ni…"
-                            </div>
-                    </a>
-                    </li>
-                    <li class="notifications__dropdown-list-item">
-                        <a class="notifications__dropdown-link" href="">
-                            <img class="notifications__dropdown-avatar" src="https://via.placeholder.com/50" alt="#">
-                            <div class="notifications__dropdown-link-content">
-                              <span>Mary Price, Suoma Narjus and 3 others</span> liked your <span>post</span>: "Acme Inc dynamically scales ni…"
-                            </div>
-                    </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+        <div class="header__row" id="main-header"></div>
     </header>
 
-    <script type="text/javascript">
-        const notificationsButton = document.querySelector('.js-notifications__button');
-        const notificationsDropdown = document.querySelector('.notifications');
+    <script src="js/app.js" type="text/javascript"></script>
 
-        notificationsButton.addEventListener('click', () => {
-            notificationsDropdown.classList.toggle('js-show');
-        });
-    </script>
 </body>
 
 </html>

@@ -16,6 +16,28 @@ gulp.task('sass', function () {
     .pipe(browserSync.stream());
 });
 
+// JAVASCRIPT Tasks
+
+const concat = require('gulp-concat');
+const babel = require('gulp-babel');
+
+const jsFiles = [
+  './src/js/vendors/react.development.js',
+  './src/js/vendors/react-dom.development.js',
+  './src/js/components/notifications.js'
+]
+
+gulp.task('scripts', function () {
+  return gulp.src(jsFiles)
+    .pipe(concat('app.js'))
+    .pipe(babel({
+            plugins: ['transform-react-jsx']
+        }))
+    .pipe(gulp.dest('./build/js/'));
+});
+
+// COPY TASKS
+
 gulp.task('html', function () {
   return gulp.src('./src/**/*.html')
   .pipe(gulp.dest('./build/'));
@@ -35,14 +57,15 @@ gulp.task('copy', ['html', 'fonts', 'images']);
 
 // Watch Tasks
 
-gulp.task('watch', function () {
+gulp.task('watch', ['sass', 'copy', 'scripts'], function () {
 
   browserSync.init({
         server: "./build/"
     });
 
   gulp.watch('./src/scss/**/*.scss', ['sass']);
+  gulp.watch('./src/js/**/*.js', ['scripts']);
   gulp.watch('./src/**.html', ['copy']);
 });
 
-gulp.task('default', ['sass', 'copy']);
+gulp.task('default', ['sass', 'copy', 'scripts']);

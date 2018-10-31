@@ -8,6 +8,9 @@ This is a simple exercise to demonstrate my technical skillset.
   - browserSync
   - sass
   - autoprefixer
+  - babel
+- React
+  - ReactDOM
 
 ## Requirements
 To build a replicate of the supplied design built as a React Application.
@@ -16,7 +19,25 @@ To build a replicate of the supplied design built as a React Application.
 What is this application all about?
 If time allows, support this with a CRUD?
 
+## Log 31/10/18
+
+I have used a basic setup to get react included in the project. I have used gulp as that
+is what I am familiar with. But after breaking down my component into smaller parts,
+I can see the advantage of using Webpack.
+
+What is needed now is to restore the basic functionality via React.
+
+--
+
+Basic Functionality added. I have understood better in practice how state works
+and also how to pass data and methods to other components.
+
+**Next steps**
+
+[ ] Setting up data request (XHR to dummy Json file)
+
 ## Log 30/10/18
+
 Built out the full html structure. Created SASS styles. Added in some dummy JS functions.
 
 ## Log 29/10/18
